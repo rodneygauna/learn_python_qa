@@ -1,4 +1,4 @@
-# Pathing To Learning Python QA Automation
+# Path To Learning Python QA Automation
 
 ## Learning Goals :blue_book:
 -[x] Use pytest and Selenium
