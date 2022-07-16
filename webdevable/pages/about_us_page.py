@@ -14,6 +14,7 @@ class AboutUsPage(PageBase):
         self.map = AboutUsPageMap(driver)
 
     def goto(self):
+        """ Navigates to the ABOUT US page """
         self.headernav.goto_about_us_page()
 
 
