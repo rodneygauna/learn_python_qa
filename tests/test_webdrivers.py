@@ -8,12 +8,13 @@ from selenium import webdriver
 # ----------------------------------------------------------------------------------------------------------------------
 # Webdriver paths
 # ----------------------------------------------------------------------------------------------------------------------
-chrome_path = os.path.normpath('../webdrivers/chromedriver')
+chrome_path_win = os.path.normpath('../webdrivers/chromedriver_win.exe')
+chrome_path_mac = os.path.normpath('../webdrivers/chromedriver')
 
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Test Chrome Webdriver
 # ----------------------------------------------------------------------------------------------------------------------
 def test_google_chrome():
-    driver = webdriver.Chrome(executable_path=chrome_path)
+    driver = webdriver.Chrome(executable_path=chrome_path_win)
 
