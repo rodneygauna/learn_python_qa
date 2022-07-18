@@ -7,8 +7,8 @@
 - [x] Learn the Gherkin language
 - [x] Understand the 'Page Object Model'
 - [ ] Create a test suite
-- [ ] Behavior Driven Development (BDD)
-- [ ] Use Behave
+- [x] Behavior Driven Development (BDD)
+- [xS] Use Behave
 - [ ] ... and more
 
 ## Resources :books:
