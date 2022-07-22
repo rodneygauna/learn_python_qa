@@ -34,3 +34,4 @@ def test_about_us_page_displayed():
 
     # Then page is displayed
     assert about_us_page.map.title.is_displayed
+    driver.quit()
